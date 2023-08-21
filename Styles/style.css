@@ -1,0 +1,165 @@
+:root {
+    --text-color: rgb(8, 8, 8);
+}
+
+/* div a img {
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+} */
+
+body {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+
+nav {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav a {
+    color: var(--text-color)
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo img {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 30px;
+    left: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img:hover {
+    width: 85px;
+    height: 85px;
+    transition: 0.3s ease;
+}
+
+.menu {
+    text-align: center;
+}
+
+.select-item {
+    display: inline-block;
+    padding: 40px;
+}
+
+.select-item i {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.select-item a:hover {
+    color: orange;
+}
+
+.select-item a {
+    transition: 0.7s ease;
+}
+
+.hambar-line {
+    margin-bottom: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+@media all and (max-width:850px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .select-item {
+        display: block;
+        padding: 20px;
+    }
+
+    .pizza div {
+        display: block;
+    }
+
+    .logo {
+        align-self: flex-start;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .hambar-line {
+        display: block;
+        position: fixed;
+        top: 50px;
+        right: 40px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* .showmenu
+    {
+        display: block;
+    } */
+}
+
+.title-pizza {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1.6rem;
+    width: 100ev;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+.title-pizza::before,
+.title-pizza::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: orange;
+    display: block;
+}
+
+.pizza a img {
+    width: 80px;
+    height: 80px;
+}
+
+.pizza {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.pizza div {
+    margin-left: 100px;
+    width: 290px;
+}
+
+.margerita {
+    display: inline-block;
+    width: 150px;
+}
+
+.margerita-content {
+    float: right;
+    position: relative;
+}
+
+/* .pizza-name {
+    display: inline-block;
+} */

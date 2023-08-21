@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="shortcut icon" href="/Assests/img/chilleata.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="/Styles/task1.css">
+</head>
+
+<body>
+    <nav>
+        <p id="logo">Foods</p>
+
+        <!--hamburger icon-->
+
+        <div class="hambar-line" id="hambar-line">
+            <a href="#" id="btn"><i class="fa-solid fa-bars" id="threeline"></i></a>
+        </div>
+    </nav>
+
+    <!--Menu list-->
+
+    <div class="menu" id="menu">
+        <div class=select-item>
+            <a id="pizza1" href="#" onclick="showPizza()"><i class="fa-solid fa-pizza-slice"></i><span>Pizza</span></a>
+
+        </div>
+        <div class=select-item>
+            <a id="burger1" href="#" onclick="showBurger()"><i class="fa-solid fa-burger"></i><span>Burger</span></a>
+
+        </div>
+        <div class=select-item>
+            <a id="snacks1" href="#" onclick="showSnacks()"><i class="fa-solid fa-cookie-bite"></i><span>Snacks &
+                    sides</span></a>
+
+        </div>
+        <div class=select-item>
+            <a id="salad1" href="#" onclick="showSalad()"><i class="fa-solid fa-carrot"></i><span>Salad</span></a>
+
+        </div>
+        <div class=select-item>
+            <a id="drink1" href="#" onclick="showDrink()"><i class="fa-solid fa-mug-hot"></i><span>Drink</span></a>
+        </div>
+
+        <!--PIZZA-->
+
+    </div>
+    <div class="container" id="pizza-tab">
+        <!--pizza tittle-->
+        <div class="title-pizza">
+            <h2>Pizza</h2>
+        </div>
+
+        <!--content of pizza-->
+
+        <div class="pizza" id="pizza">
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/pizza-margherita.png" alt="margerita"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Margherita</b><br>
+                        Tomato sauce,fresh mozzarella,basil,sea salt,California extra virgin olive oil
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $17
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/pizza-la rossa.png" alt="la-rossa"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>La Rossa</b><br>
+                        Tomato sauce,garlic,basil (no cheese)
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $15
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/Pizza-burrata.png" alt="burrata"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Burrata</b><br>
+                        Tomato sauce,garlic,basil,burrata
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $18
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/pizza-panna.png" alt="panna"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Panna</b><br>
+                        Tomato sauce,fresh mozzarella,grass-fed PA cow's cream,arugula,parmigiano
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $18
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/Pizza-Bosco.png" alt="bosco"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Bosco</b><br>
+                        Tomato sauce,fresh mozzarella,cremini mushrooms,fontina
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $17
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <img src="/Assests/img/Pizza-pepperonia.png" alt="pepperoni">
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Pepperoni</b><br>
+                        Tomato sauce,garlic,basil,burrata
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $19
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--BURGER-->
+
+    <div class="container" id="burger-tab">
+        <!--burger tittle-->
+        <div class="title-pizza">
+            <h2>Burger</h2>
+        </div>
+
+        <!--content of burger-->
+
+        <div class="pizza" id="burger">
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/chilli-burger.png" alt="chilli-burger"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Chilli Burger</b><br>
+                        ground beef, Italian sausage, chili sauce, salt and pepper
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $10
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/chicken-burger.png" alt="chicken-burger"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Chicken Burger</b><br>
+                        Ground chicken, coleslaw, smoked paprika, red onion
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $12
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/butter-burger.png" alt="butter-burger"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Butter Burger</b><br>
+                        Lean ground beef, dill pickle, butter, seasoned salt
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $7
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/buffalo-burger.png" alt="buffalo-burger"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Buffalo Burger</b><br>
+                        Ground bison, smoky barbecue sauce, olive oil, fresh sage
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $12
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/fish-burger.png" alt="fish-burger"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Fish Burger</b><br>
+                        Fish, dijon mustard, cucumber, egg whites, tomato
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $10
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <img src="/Assests/img/mushroom-burger.png" alt="mushroom-burger">
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Mushroom Burger</b><br>
+                        Bread crumbs, rolled oats, olive oil, eggs, garlic
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $8
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SNACKS & SIDES-->
+
+    <div class="container" id="snacks-tab">
+        <!--snacks & sides tittle-->
+        <div class="title-pizza">
+            <h2>Snacks & Sides</h2>
+        </div>
+
+        <!--content of snacks-->
+
+        <div class="pizza" id="snack">
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/cutlet.png" alt="cutlet"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Cutlet</b><br>
+                        Potatoes, fresh green peas, french beans, panko, garam
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $5
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/murukku.png" alt="murukku"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Murukku</b><br>
+                        The flours are mixed with water, salt, chilli powder, asafoetida and either sesame seeds or
+                        cumin seeds
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $4
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/French_Fries.png" alt="French_Fries"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>French Fries</b><br>
+                        Oil-blanching is a two-part process that reduces the moisture and starch content in your fries,
+                        helping them crisp up
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $6
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/ice cream.png" alt="panna"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Ice Cream</b><br>
+                        Sweetened condensed milk, vanilla bean, whipping cream
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $5
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/samosa.png" alt="samosa"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Samosa</b><br>
+                        Maida, Potato, Peas, Onion, Spices, Green chili, Cheese, Meat (Lamb, Beef or Chicken)
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $8
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <img src="/Assests/img/puff.jpg" alt="puff">
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Puff</b><br>
+                        Mashed potatoes, green peas, mustard sauce, gluten, puff
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $4
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SALADS-->
+
+    <div class="container" id="salad-tab">
+        <!--salads tittle-->
+        <div class="title-pizza">
+            <h2>Salads</h2>
+        </div>
+
+        <!--content of salads-->
+
+        <div class="pizza" id="snack">
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/fruit-salad.png" alt="fruit-salad"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Fruit Salad</b><br>
+                        apple,mango,grape,orange,banana
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $10
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/grain-salad.png" alt="grain-salad"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Grain Salad</b><br>
+                        Butternut squash, black rice, feta cheese, farro, pine nuts
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $13
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/green-salad.png" alt="green-salad"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Green Salad</b><br>
+                        Vinaigrette salad dressing, green bell pepper, chicken deli
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $8
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/pasta-salad.png" alt="pasta-salad"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Pasta Salad</b><br>
+                        Feta cheese, pine nuts, herbes de provence, fusilli pasta
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $7
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/vegtable-salad.png" alt="vegtable-salad"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Vegtable Salad</b><br>
+                        Beetroot, cabbage, balsamic vinegar, cucumber, sesame
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $8
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <img src="/Assests/img/seafood-salad.png" alt="seafood-salad">
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Seafood Salad</b><br>
+                        Imitation crab meat, old bay seasoning, red onion, lemon
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $9
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DRINKS-->
+
+    <div class="container" id="drink-tab">
+        <!--drinks tittle-->
+        <div class="title-pizza">
+            <h2>Drinks</h2>
+        </div>
+
+        <!--content of drinks-->
+
+        <div class="pizza" id="drink">
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/7up.png" alt="7up"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>7up</b><br>
+                        pound cake, biscuits, buttercream sugar cookies, pancakes, pie crust, fruit salads, and brownie
+                        glaze
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $10
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/pulpy orange.png" alt="pulpy-orange"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Pulpy Orange</b><br>
+                        Ice, oranges, black salt, mint leaves
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $13
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/appy-fizz.png" alt="appy-fizz"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Appy Fizz</b><br>
+                        Hard apple cider, pear brandy, bison grass vodka, cinnamon
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $8
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/slice-juice.png" alt="slice-juice"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Slice</b><br>
+                        Mint slice biscuits, irish cream liqueur, creme de menthe
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $7
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <a href="#"><img src="/Assests/img/sprite.png" alt="sprite"></a>
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Sprite</b><br>
+                        B Orange Creamsicle Punch, White Sangria With Pineapple, Mango And Basil, Pineapple Pink
+                        Lemonade Soda
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $8
+                </div>
+            </div>
+            <div class="pizza2">
+                <div class="pizza-img">
+                    <img src="/Assests/img/bovonto-juice.png" alt="bovonto-juice">
+                </div>
+                <div class="pizza-recipe">
+                    <p> <b>Bovonto</b><br>
+                        Carbonated Water, Sugar, Citric Acid E330
+                    </p>
+                </div>
+                <div class="pizza-rate">
+                    $9
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Script/task1.js"></script>
+</body>
+
+</html>
