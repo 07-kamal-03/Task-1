@@ -2,10 +2,11 @@
  * Drop Down JavaScript
  */
 document.getElementById("btn").onclick = function () {
-    myfunction()
+    myfunction();
+    
 };
 function myfunction() {
-    document.getElementById("menu").classList.toggle("show")
+    document.getElementById("menu").classList.toggle("show");
 }
 /**
  * Content Changing JavaScript
@@ -20,7 +21,7 @@ var burger_tab = document.getElementById("burger-tab");
 var snacks_tab = document.getElementById("snacks-tab");
 var salad_tab = document.getElementById("salad-tab");
 var drink_tab = document.getElementById("drink-tab");
-//  console.log(drinkkey,drink_tab);
+
 function showPizza() {
     pizzakey.style.color = "orange";
     burgerkey.style.color = "#000";
@@ -32,6 +33,7 @@ function showPizza() {
     snacks_tab.style.transform = "translateX(150%)";
     salad_tab.style.transform = "translateX(150%)";
     drink_tab.style.transform = "translateX(150%)";
+    myfunction();
 
 }
 function showBurger() {
@@ -45,6 +47,7 @@ function showBurger() {
     snacks_tab.style.transform = "translateX(150%)";
     salad_tab.style.transform = "translateX(150%)";
     drink_tab.style.transform = "translateX(150%)";
+    myfunction();
 }
 function showSnacks() {
     pizzakey.style.color = "#000";
@@ -57,6 +60,7 @@ function showSnacks() {
     snacks_tab.style.transform = "translateX(0px)";
     salad_tab.style.transform = "translateX(150%)";
     drink_tab.style.transform = "translateX(150%)";
+    myfunction();
 }
 function showSalad() {
     pizzakey.style.color = "#000";
@@ -69,6 +73,7 @@ function showSalad() {
     snacks_tab.style.transform = "translateX(150%)";
     salad_tab.style.transform = "translateX(0px)";
     drink_tab.style.transform = "translateX(150%)";
+    myfunction();
 }
 function showDrink() {
     pizzakey.style.color = "#000";
@@ -81,5 +86,5 @@ function showDrink() {
     snacks_tab.style.transform = "translateX(150%)";
     salad_tab.style.transform = "translateX(150%)";
     drink_tab.style.transform = "translateX(0px)";
+    myfunction();
 }
-// console.log(showDrink());
