@@ -143,9 +143,6 @@ span {
 }
 
 @media only screen and (max-width:900px) {
-    body {
-        overflow: hidden;
-    }
     .hambar-line a {
         display: block;
         position: relative;
